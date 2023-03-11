@@ -1,0 +1,119 @@
+.navbar{
+    background: #fff5f5;
+    width: 100%;
+    height: 200px;
+    position: absolute;
+    top: 0;
+    z-index: 3;
+    display: flex;
+    justify-content: space-between;
+    
+    .logo {
+        top: 0;
+        z-index: 3;
+        padding: 0;
+        width:400px;
+        img {
+            height: 100%;
+            }
+    }
+
+    nav {
+        width: 100%;
+        display: flex;
+        align-items: flex-end;
+        margin:30px;
+        position: relative;
+
+        .background{
+            background-color:#E3E0F3;
+            height: 100px;
+            width: 100%;
+            display: flex;
+            align-items: center;
+        }
+        
+        .home-link, .about-link, .contact-link{
+            position:absolute;
+            margin:30px;
+            font-size: 500%;
+            color: #4d4d4e;
+            text-decoration: none;
+
+            i{
+                transition: all 0.3s ease-out;
+                
+            }
+            
+            &:hover {
+                color:#430262;
+                
+                svg{
+                    opacity:0;
+                }
+
+                &:after {
+                    opacity:1;
+                }
+            }
+
+            &:after {
+                position:absolute;
+                left:-50%;
+                top:10%;
+                content:'';
+                opacity:0;
+                transition: all 0.3s ease-out;
+                font-size:75%;
+            }
+
+            &:first-child{
+                margin:50px;
+                &:after{
+                    content: 'Home';
+                }
+
+            }
+            
+        }
+        a.about-link {
+            left:150px;
+            &:after{
+                content:'About';
+            }
+        }
+        a.contact-link {
+            left:275px;
+            &:after {
+                content: 'Contact';
+            }
+        }
+        a.active {
+            svg {
+                color:#430262;
+            }
+        }
+        ul{
+            position:absolute;
+            right:0;
+            font-size:500%;
+            display:flex;
+            padding:0;
+            list-style:none;
+            margin:10px;
+            justify-content: flex-end;
+            align-items: flex-end;
+
+            li{
+                margin:10px;
+                a { 
+                    &:hover svg{
+                        color:#430262;
+                    }
+                }
+            }
+        }
+    }
+
+    
+}
