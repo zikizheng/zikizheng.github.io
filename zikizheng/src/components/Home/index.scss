@@ -1,0 +1,60 @@
+.home-page{
+    .text-zone{
+        position: absolute;
+        top: max(325px, 50%);
+        left: 15%;
+        transform: translateY(-50%);
+        width: 40%;
+        max-height: 25%
+    }
+
+    h1{
+        color: #430262;
+        font-size: 50px;
+        margin: 0;
+
+        &::before {
+            content: '<h1>';
+            position: absolute;
+            font-size: 18px;
+            margin-top:-25px;
+            left: -15px;
+            opacity: 0.6;
+        }
+        &::after {
+            content: '<h1/>';
+            position: absolute;
+            font-size: 18px;
+            margin-top: 25px;
+            margin-left: 15px;
+            animation: fadeIn 1s 1.7s backwards;
+            opacity: 0.6;
+        }
+    }
+
+    h2{
+        margin-top:20px;
+        font-size: 11px;
+        letter-spacing: 3px;
+        animation: fadeIn 1s 1.8s backwards;
+    }
+
+    .flat-button {
+        color: #430262;
+        font-size: 13px;
+        font-weight: 600;
+        letter-spacing: 4px;
+        text-decoration:none;
+        padding: 10px 18px;
+        border: 1px solid #430262;
+        margin-top: 25px;
+        float: left;
+        animation: fadeIn 1s 1.8s backwards;
+        white-space: nowrap;
+
+        &:hover{
+            background: #430262;
+            color: #444;
+        }
+    }
+}

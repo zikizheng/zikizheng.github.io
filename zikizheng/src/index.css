@@ -6,7 +6,7 @@ body{
     font: 300 11px/1.4 'Inter', 'sans-serif';
     color: #444;
     background: #B1BDC5;
-    overflow: hidden;
+    overflow-y: auto;
     display: block;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
