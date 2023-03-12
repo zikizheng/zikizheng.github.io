@@ -34,12 +34,12 @@ const Sidebar = () => (
                         </a>
                     </li>
                     <li>
-                        <a target="_blank" rel='noreferrer' className="facebook" href="https://www.linkedin.com/in/ziki-zheng/">
+                        <a target="_blank" rel='noreferrer' className="facebook" href="https://www.facebook.com/ziki.zheng">
                             <FontAwesomeIcon icon={faFacebookSquare} color="#4d4d4e"/>
                         </a>
                     </li>
                     <li>
-                        <a target="_blank" rel='noreferrer' className="insta" href="https://www.linkedin.com/in/ziki-zheng/">
+                        <a target="_blank" rel='noreferrer' className="insta" href="https://www.instagram.com/ziki.zh/">
                             <FontAwesomeIcon icon={faInstagramSquare} color="#4d4d4e"/>
                         </a>
                     </li>
