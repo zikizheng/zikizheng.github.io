@@ -1,17 +1,28 @@
 .home-page{
+
     .text-zone{
         position: absolute;
         top: max(325px, 50%);
         left: 15%;
         transform: translateY(-50%);
-        width: 40%;
+        width: max(40%, 500px);
         max-height: 25%
     }
 
     h1{
+        img {
+            position: absolute;
+            height: 300px;
+            width: 300px;
+            top: 0;
+            left: calc(15% + 500px);
+            border-radius: 100%;
+            border: 2px solid #fff;
+        }
         color: #430262;
         font-size: 50px;
         margin: 0;
+        
 
         &::before {
             content: '<h1>';
@@ -19,15 +30,17 @@
             font-size: 18px;
             margin-top:-25px;
             left: -15px;
+            font-weight: 400;
             opacity: 0.6;
         }
         &::after {
             content: '<h1/>';
             position: absolute;
             font-size: 18px;
-            margin-top: 25px;
-            margin-left: 15px;
+            margin-top: -50px;
+            margin-left: 275px;
             animation: fadeIn 1s 1.7s backwards;
+            font-weight: 400;
             opacity: 0.6;
         }
     }
@@ -54,7 +67,7 @@
 
         &:hover{
             background: #430262;
-            color: #444;
+            color: #fff;
         }
     }
 }
