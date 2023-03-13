@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.c105b103.css",
-    "main.js": "/static/js/main.090d7519.js",
+    "main.css": "/static/css/main.a1b39d0f.css",
+    "main.js": "/static/js/main.3e88c3bf.js",
     "static/media/profile.png": "/static/media/profile.4ba9ce66fa4e8b6060fb.png",
     "static/media/Inter-VariableFont_slnt,wght.ttf": "/static/media/Inter-VariableFont_slnt,wght.aadb65ac45347ff46699.ttf",
     "static/media/logo-Z-slogan.png": "/static/media/logo-Z-slogan.17181c55915775ccf225.png",
     "index.html": "/index.html",
-    "main.c105b103.css.map": "/static/css/main.c105b103.css.map",
-    "main.090d7519.js.map": "/static/js/main.090d7519.js.map"
+    "main.a1b39d0f.css.map": "/static/css/main.a1b39d0f.css.map",
+    "main.3e88c3bf.js.map": "/static/js/main.3e88c3bf.js.map"
   },
   "entrypoints": [
-    "static/css/main.c105b103.css",
-    "static/js/main.090d7519.js"
+    "static/css/main.a1b39d0f.css",
+    "static/js/main.3e88c3bf.js"
   ]
 }
