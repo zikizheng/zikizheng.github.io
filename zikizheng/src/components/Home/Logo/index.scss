@@ -1,4 +1,4 @@
-.logo-container{
+.profile-container{
     z-index: 0;
     width: 410px;
     height: 410px;
@@ -38,12 +38,6 @@
         height: 400px;
         opacity: 0;
         z-index: 1;
-        animation: fadeIn 1.7s 2.5s forwards;
+        animation: fadeIn 3s 2s forwards;
     }
-}
-
-.svg-container{
-    stroke: #fff;
-    stroke-width: 100px;
-    
 }
