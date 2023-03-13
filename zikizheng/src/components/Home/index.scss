@@ -10,15 +10,13 @@
     }
 
     h1{
-        img {
-            position: absolute;
-            height: 300px;
-            width: 300px;
-            top: 0;
-            left: calc(15% + 500px);
-            border-radius: 100%;
-            border: 2px solid #fff;
-        }
+        // img {
+        //     position: absolute;
+        //     height: 300px;
+        //     width: 300px;
+        //     top: 20px;
+        //     left: calc(15% + 500px);
+        // }
         color: #430262;
         font-size: 50px;
         margin: 0;
@@ -35,13 +33,14 @@
         }
         &::after {
             content: '<h1/>';
+            opacity: 0.6;
             position: absolute;
             font-size: 18px;
             margin-top: -50px;
             margin-left: 275px;
             animation: fadeIn 1s 1.7s backwards;
             font-weight: 400;
-            opacity: 0.6;
+            
         }
     }
 

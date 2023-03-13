@@ -1,8 +1,8 @@
 import './index.scss';
 import { Link } from 'react-router-dom';
 import {useState} from 'react';
-import portrait from '../../assets/images/portrait.png'
 import AnimatedLetters from '../AnimatedLetters'
+import Logo from './Logo'
 
 const Home = () => {;
     const [letterClass, setLetterClass] = useState('text-animate')
@@ -22,23 +22,21 @@ const Home = () => {;
                 strArray={nameArray}
                 ind={15} />
                 <br/>
-
                 <AnimatedLetters letterClass={letterClass}
                 strArray={studentArray}
                 ind={26} />
                 <br/>
-
                 <AnimatedLetters letterClass={letterClass}
                 strArray={uniArray}
                 ind={36} />
                 <br/>
-                <img src={portrait}/>
+                {/* <img src={portrait}/> */}
                 </h1>
                 <h2>Data Science Specialization | Major in CyberSecurity</h2>
                 <Link to="/contact" className='flat-button'>CONTACT ME</Link>
                 
             </div>
-            
+            <Logo/>
         </div>
     )
 }

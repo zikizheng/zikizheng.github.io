@@ -1,0 +1,49 @@
+.logo-container{
+    z-index: 0;
+    width: 410px;
+    height: 410px;
+    position: absolute;
+    top: max(225px, 35%);
+    left: max(35%, 700px);
+    bottom: 0;
+    right: auto;
+    opacity: 1;
+
+    svg{
+        width: 100%;
+        height: auto;
+        top: 0;
+        fill: none;
+        stroke-dasharray: 1244;
+        stroke-dashoffset: 1244;
+        animation: clock-animation 1s linear 2s forwards;
+        @keyframes clock-animation {
+            0% {
+                stroke-dashoffset: 1244;
+            }
+            100% {
+                stroke-dashoffset: 0;
+            }
+        }
+    }
+
+    .solid-profile{
+        position: absolute;
+        top: 2px;
+        right: auto;
+        bottom: auto;
+        left: 2px;
+        margin: auto;
+        width: 400px;
+        height: 400px;
+        opacity: 0;
+        z-index: 1;
+        animation: fadeIn 1.7s 2.5s forwards;
+    }
+}
+
+.svg-container{
+    stroke: #fff;
+    stroke-width: 100px;
+    
+}
